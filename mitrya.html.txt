@@ -1,0 +1,78 @@
+<!doctype html> 
+<html>
+<head>
+<title>mitrya</title>
+<body>
+
+<a href="https://geekhaven.iiita.ac.in/"><u>Home |</u></a>
+<a href="https://geekhaven.iiita.ac.in/#footer"><u>Contact |</u></a>
+<a href="https://geekhaven.iiita.ac.in/#wings-section"><u>About |</u></a>
+<a href="https://geekhaven.iiita.ac.in/#overall"><u>Projects</u></a><br><br><br><br>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<h1>Student Registration Form</h1>
+<form>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname"><br>
+
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname"><br><br>
+
+<label for="date">DOB:</label><br>
+<input type="date" id="date" name="date"><br><br><br>
+
+<label for="faname">Father's Name:</label><br>
+<input type="text" id="faname" name="faname"><br><br>
+
+
+
+<label for="doc">Document:</label><br>
+
+<input type="radio" id="adhaar" name="adhaar">
+<label for="adhaar">Adhaar</label><br>
+
+
+<input type="radio" id="drv" name="drv">
+<label for="drv">Driving License</label><br>
+
+
+<input type="radio" id="oth" name="oth">
+<label for="oth">Other</label><br><br>
+
+
+
+<label for="gend">Gender:</label>
+<select id="gend" name="gend">
+
+
+<option>Male</option><br>
+<option>Female</option><br>
+<option>Other</option><br>
+</select><br><br>
+
+
+<label for="des">Description:</label><br>
+<textarea id="des" name="des" rows="5" cols="60">
+</textarea><br><br>
+<input type="checkbox" id="confirm" name="confirm">
+<label for="confirm">Confirm</label><br>
+
+<input type="submit" value="Submit"><br><br><br><br>
+
+</form>
+
+
+<p>Made By Geekhaven
+
+<i class="fa fa-address-book" stye="font-size:48x;"></i>
+
+<i class="fa fa-envelope" stye="font-size:48x;"></i>
+
+<i class="fa fa-facebook" stye="font-size:48x;"></i>
+
+<i class="fa fa-instagram" stye="font-size:48x;"></i>
+</p>
+
+</body>
+</head>
+</html>
